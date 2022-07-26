@@ -1,0 +1,89 @@
+body {
+  background-color: #1b1b32;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  top: 78px;
+  margin: 98px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #ffffff;
+}
+
+p {
+  position: absolute;
+  width: 412px;
+  height: 19px;
+  left: 29px;
+  display: block;
+  justify-content: center;
+  top: 141px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+form {
+  position: absolute;
+  top: 78px;
+  bottom: 121px;
+  color: #ffffff;
+
+  font-family: inter, sans-serif;
+}
+
+label {
+  align-items: center;
+}
+
+input[id="fname"],
+input[id="lname"],
+input[id="Email"],
+input[id="Password"] {
+  position: absolute;
+  width: 498px;
+  height: 40px;
+  line-height: 48px;
+  color: #ffffff;
+
+  justify-content: center;
+
+  background: #101022;
+  border-radius: 8px;
+}
+
+#bio {
+  position: absolute;
+  width: 498px;
+  height: 113px;
+
+  color: #ffffff;
+
+  background: #101022;
+  border-radius: 8px;
+}
+
+#button {
+  font-family: inter, sans-serif;
+  position: absolute;
+  width: 498px;
+  height: 45px;
+  color: #ffffff;
+  background-color: #101022;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}

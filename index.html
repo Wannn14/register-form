@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form
+      action="https://www.freecodecamp.org/learn/front-end-development-libraries/"
+      method="get"
+    >
+      <h1>Registration Form</h1>
+      <p>please fill out this form with the required information</p>
+      <label for="fname">First name :</label><br /><br />
+      <input
+        type="text"
+        id="fname"
+        placeholder="First Name"
+        name="fname"
+        required
+      /><br /><br /><br />
+      <label for="lname">Last name :</label><br /><br />
+      <input
+        type="text"
+        id="lname"
+        placeholder="Last Name"
+        name="lname"
+        required
+      /><br /><br /><br />
+      <label for="lname">Enter your Email :</label><br /><br />
+      <input
+        type="text"
+        id="Email"
+        placeholder="Enter your Email"
+        name="Email"
+        required
+      /><br /><br /><br />
+      <label for="lname">Enter your Password :</label><br /><br />
+      <input
+        type="password"
+        id="Password"
+        placeholder="Enter your Password"
+        name="Password"
+        required
+      /><br /><br /><br />
+      <label for="Provide Bio">Provide Bio :</label><br /><br />
+      <textarea
+        name="Provide bio"
+        placeholder=""
+        id="bio"
+        cols="30"
+        rows="10"
+        required
+      ></textarea
+      ><br /><br />
+      <br /><br /><br /><br /><br />
+      <input
+        type="radio"
+        id="Personal Account"
+        name="fav_Account"
+        value="Personal Account"
+        required
+      />
+      <label for="Personal Account">Personal Account</label>
+      <input
+        type="radio"
+        id="Business Account"
+        name="fav_Account"
+        value="Business Account"
+        required
+      />
+      <label for="Business Account">Business Account</label><br /><br />
+      <input
+        type="checkbox"
+        id="accept"
+        name="accept"
+        value="accept"
+        required
+      />
+      <label for="accept"
+        >accept the <a href="terms and condition">terms and condition</a></label
+      ><br /><br />
+      <button type="submit" id="button">Submit</button>
+    </form>
+  </body>
+</html>
